@@ -70,7 +70,8 @@ lvim.builtin.cmp.cmdline.enable = true
 lvim.builtin.borderless_cmp = true
 lvim.builtin.colored_args = true -- if true then sets up hlargs.nvim
 lvim.builtin.bigfile.active = true
-lvim.builtin.indentlines.mine = false
+lvim.builtin.indentlines.active = false
+lvim.builtin.indentlines.mine = true
 -- WARN: mind plugin is deprecated ( use with caution )
 lvim.builtin.mind = { active = false, root_path = "~/.mind" } -- enable/disable mind.nvim
 
