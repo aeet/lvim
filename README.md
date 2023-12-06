@@ -1,1 +1,4 @@
-https://cpux.cc/405.html
+# lvim
+
+- My lunarvim config
+- Copy from (abzcoding)[https://github.com/abzcoding/lvim.git]
