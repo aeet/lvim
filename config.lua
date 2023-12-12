@@ -74,6 +74,7 @@ lvim.builtin.indentlines.active = false
 lvim.builtin.indentlines.mine = true
 -- WARN: mind plugin is deprecated ( use with caution )
 lvim.builtin.mind = { active = false, root_path = "~/.mind" } -- enable/disable mind.nvim
+lvim.builtin.symbols_usage = { active = true } -- enable/disable symbols-usage.nvim
 
 -- Custom User Config
 -- =========================================

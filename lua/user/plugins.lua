@@ -832,6 +832,14 @@ M.config = function()
     {
       "wakatime/vim-wakatime",
     },
+    {
+      "Wansmer/symbol-usage.nvim",
+      event = "LspAttach",
+      enabled = lvim.builtin.symbols_usage.active,
+      config = function()
+        require("user.symbol_use").config()
+      end,
+    },
   }
 end
 
