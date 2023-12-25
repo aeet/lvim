@@ -50,7 +50,7 @@ M.config = function()
 
   local heading = {
     type = "text",
-    val = "┌─ " .. kind.icons.calendar .. empty_space .. "Today is " .. date .. " ─┐",
+    val = "┌─ " .. kind.icons.calendar .. empty_space .. " Today is " .. date .. " ─┐",
     opts = {
       position = "center",
       hl = "String",
@@ -147,3 +147,4 @@ M.config = function()
 end
 
 return M
+
