@@ -14,10 +14,10 @@ first: '\b([A-Z]{3,5})\b'
 second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
 # ... with the exception of these:
 exceptions:
-  - ACID
   - ACG
-  - ACL
+  - ACID
   - ACK
+  - ACL
   - ADFS
   - AJAX
   - AMSI
@@ -40,9 +40,9 @@ exceptions:
   - BNB
   - BSD
   - BYOD
+  - CAM
   - CAS
   - CASMM
-  - CAM
   - CCSS
   - CDN
   - CET
@@ -82,15 +82,17 @@ exceptions:
   - DNS
   - DOM
   - DOS
-  - DTD
   - DSA
   - DSS
+  - DTD
   - DVCS
+  - EAP
   - ECDSA
   - ECS
   - EDR
   - EEA
   - EFS
+  - EIGRP
   - EKS
   - EOL
   - EPA
@@ -125,6 +127,7 @@ exceptions:
   - HIPAA
   - HMAC
   - HMP
+  - HOTP
   - HSM
   - HSTS
   - HTML
@@ -134,6 +137,7 @@ exceptions:
   - IAM
   - IANA
   - IAT
+  - IAVL
   - IBM
   - ICMP
   - ICO
@@ -142,11 +146,13 @@ exceptions:
   - IDE
   - IDOR
   - IDS
+  - IGRP
   - IID
   - IMAP
   - IOPS
   - IPFS
   - IPS
+  - IPSec
   - IRC
   - IRQL
   - ISAC
@@ -166,6 +172,7 @@ exceptions:
   - LAN
   - LDAP
   - LDAPS
+  - LED
   - LESS
   - LFS
   - LRU
@@ -180,6 +187,7 @@ exceptions:
   - MFA
   - MIME
   - MIT
+  - MITM
   - MMIO
   - MSA
   - MSSQL
@@ -188,6 +196,7 @@ exceptions:
   - NDA
   - NFS
   - NFT
+  - NFV
   - NGFW
   - NGINX
   - NIST
@@ -199,6 +208,7 @@ exceptions:
   - ONLY
   - OPA
   - OSI
+  - OSPF
   - OSS
   - OTP
   - OTR
@@ -208,12 +218,12 @@ exceptions:
   - PCI
   - PCI-DSS
   - PDF
-  - PID
   - PEB
   - PEM
   - PEP
   - PGP
   - PHP
+  - PID
   - PNG
   - POC
   - POSIX
@@ -234,6 +244,7 @@ exceptions:
   - RFC
   - RFI
   - RHEL
+  - RIP
   - ROM
   - ROP
   - RPC
@@ -259,8 +270,8 @@ exceptions:
   - SCORE
   - SCP
   - SCSS
-  - SDK
   - SDDL
+  - SDK
   - SDLC
   - SDN
   - SEH
@@ -274,8 +285,8 @@ exceptions:
   - SIP
   - SLA
   - SLSA
-  - SMB
   - SMAP
+  - SMB
   - SMEP
   - SMS
   - SMTP
@@ -313,22 +324,25 @@ exceptions:
   - TODO
   - TOML
   - TOR
+  - TOTP
   - TSC
   - TTL
+  - UAF
   - UDP
   - UNIX
   - URI
   - URL
   - USB
   - UTC
-  - UTM
   - UTF
+  - UTM
   - UUID
   - VBS
   - VCS
   - VHD
   - VLAN
   - VNC
+  - VNF
   - VPC
   - VPN
   - VSS

@@ -52,6 +52,9 @@ M.config = function()
             enable = true,
             command = "clippy",
           },
+          diagnostics = {
+            experimental = true,
+          },
         },
       },
     },
@@ -101,3 +104,4 @@ M.dir_exists = function(file)
 end
 
 return M
+
