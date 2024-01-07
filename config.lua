@@ -64,7 +64,7 @@ lvim.builtin.noice = { active = true } -- enables noice.nvim and inc-rename.nvim
 lvim.builtin.go_programming = { active = true } -- gopher.nvim + nvim-dap-go
 lvim.builtin.python_programming = { active = true } -- swenv.nvim + nvim-dap-python + requirements.txt.vim
 lvim.builtin.web_programming = { active = true } -- typescript.nvim + package-info.nvim
-lvim.builtin.rust_programming = { active = true } -- rust_tools.nvim + crates.nvim
+lvim.builtin.rust_programming = { active = true } -- rustaceanvim + crates.nvim
 lvim.builtin.cpp_programming = { active = true } -- clangd_extensions.nvim + make-tools.nvim
 lvim.builtin.cmp.cmdline.enable = true
 lvim.builtin.borderless_cmp = true
