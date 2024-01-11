@@ -1,7 +1,7 @@
 -- Neovim
 -- =========================================
 lvim.leader = " "
--- lvim.colorscheme = "catppuccin-mocha"       -- set to a custom theme
+lvim.colorscheme = "catppuccin" -- set to a custom theme
 lvim.builtin.time_based_themes = false -- set false to use your own configured theme
 lvim.transparent_window = false -- enable/disable transparency
 lvim.debug = true
@@ -54,7 +54,7 @@ lvim.builtin.global_statusline = true -- set true to use global statusline
 lvim.builtin.dressing = { active = true } -- enable to override vim.ui.input and vim.ui.select with telescope
 lvim.builtin.refactoring = { active = true } -- enable to use refactoring.nvim code_actions
 lvim.builtin.tmux_lualine = true -- use vim-tpipeline to integrate lualine and tmux
-lvim.builtin.lsp_lines = true -- enable/disable lsp_lines to display lsp virtual text below instead of behind
+lvim.builtin.lsp_lines = false -- enable/disable lsp_lines to display lsp virtual text below instead of behind
 lvim.builtin.legendary = { active = true } -- enable/disable legendary plugin ( ctrl-p command )
 lvim.builtin.tree_provider = "nvimtree" -- can be "neo-tree" or "nvimtree" or ""
 lvim.builtin.lir.active = true
