@@ -167,14 +167,14 @@ M.config = function()
       ft = { "rust", "rs" },
       enabled = lvim.builtin.rust_programming.active,
     },
-    --{
-      --url = "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
-      --lazy = true,
-      --config = function()
-        --require("lsp_lines").setup()
-      --end,
-      --enabled = lvim.builtin.lsp_lines,
-    --},
+    {
+      "abzcoding/lsp_lines.nvim",
+      lazy = true,
+      config = function()
+        require("lsp_lines").setup()
+      end,
+      enabled = lvim.builtin.lsp_lines,
+    },
     {
       "folke/zen-mode.nvim",
       lazy = true,
