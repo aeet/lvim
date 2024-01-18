@@ -43,7 +43,6 @@ M.config = function()
   }
   lvim.builtin.smooth_scroll = "cinnamon"
   lvim.builtin.tree_provider = "neo-tree"
-  lvim.builtin.noice.active = false
   lvim.builtin.go_programming.active = true
   lvim.builtin.python_programming.active = true
   lvim.builtin.web_programming.active = true
