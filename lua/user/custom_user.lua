@@ -43,6 +43,7 @@ M.config = function()
   }
   lvim.builtin.smooth_scroll = "cinnamon"
   lvim.builtin.tree_provider = "neo-tree"
+  lvim.builtin.noice.active = false
   lvim.builtin.go_programming.active = true
   lvim.builtin.python_programming.active = true
   lvim.builtin.web_programming.active = true
@@ -51,7 +52,7 @@ M.config = function()
   lvim.builtin.borderless_cmp = true
   lvim.builtin.colored_args = true
   lvim.reload_config_on_save = false -- NOTE: i don't like this
-  lvim.builtin.mind.active = false
+  lvim.builtin.mind.active = true
   lvim.builtin.motion_provider = "flash"
   lvim.builtin.harpoon.active = true
   lvim.builtin.symbols_usage.active = true

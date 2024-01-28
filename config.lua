@@ -4,10 +4,10 @@ lvim.leader = " "
 lvim.colorscheme = "catppuccin" -- set to a custom theme
 lvim.builtin.time_based_themes = false -- set false to use your own configured theme
 lvim.transparent_window = false -- enable/disable transparency
-lvim.debug = true
+lvim.debug = false
 vim.lsp.set_log_level "error"
 lvim.log.level = "warn"
-require("user.neovim").config()
+-- require("user.neovim").config()
 lvim.lsp.code_lens_refresh = true
 lvim.lsp.installer.setup.automatic_installation = false
 
@@ -38,7 +38,7 @@ lvim.builtin.motion_provider = "hop" -- change this to use different motion prov
 lvim.builtin.hlslens = { active = true } -- enable/disable hlslens
 lvim.builtin.csv_support = true -- enable/disable csv support
 lvim.builtin.sidebar = { active = true } -- enable/disable sidebar
-lvim.builtin.task_runner = "" -- change this to use different task runners ( "async_tasks" or "overseer" or "")
+lvim.builtin.task_runner = "async" -- change this to use different task runners ( "async_tasks" or "overseer" or "")
 lvim.builtin.winbar_provider = "filename" -- can be "filename" or "treesitter" or "navic" or ""
 lvim.builtin.metals = {
   active = true, -- enable/disable nvim-metals for scala development
@@ -72,8 +72,7 @@ lvim.builtin.colored_args = true -- if true then sets up hlargs.nvim
 lvim.builtin.bigfile.active = true
 lvim.builtin.indentlines.active = false
 lvim.builtin.indentlines.mine = true
--- WARN: mind plugin is deprecated ( use with caution )
-lvim.builtin.mind = { active = false, root_path = "~/.mind" } -- enable/disable mind.nvim
+lvim.builtin.mind = { active = true, root_path = "~/.mind" } -- enable/disable mind.nvim
 lvim.builtin.symbols_usage = { active = true } -- enable/disable symbols-usage.nvim
 
 -- Custom User Config
